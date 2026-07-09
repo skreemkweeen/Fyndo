@@ -1,0 +1,15 @@
+{
+  "name": "@fyndo/growth",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@fyndo/database": "workspace:*",
+    "@fyndo/auth": "workspace:*",
+    "@fyndo/payments": "workspace:*",
+    "drizzle-orm": "^0.33.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@fyndo/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fyndo/ai": "workspace:*",
+    "@fyndo/auction": "workspace:^",
+    "@fyndo/auth": "workspace:*",
+    "@fyndo/cache": "workspace:*",
+    "@fyndo/database": "workspace:*",
+    "@fyndo/live": "workspace:^",
+    "@fyndo/notifications": "workspace:^",
+    "@fyndo/payments": "workspace:^",
+    "@fyndo/realtime": "workspace:^",
+    "@fyndo/types": "workspace:*",
+    "@fyndo/ui": "workspace:*",
+    "@stripe/stripe-js": "^4.8.0",
+    "@supabase/ssr": "^0.5.0",
+    "@vercel/og": "^0.11.1",
+    "drizzle-orm": "^0.45.2",
+    "framer-motion": "^11.11.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.453.0",
+    "next": "15.0.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "stripe": "^17.2.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.0.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,7 @@
+
+> @fyndo/web@1.0.0 lint C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web
+> next lint
+
+
+ ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+✔ No ESLint warnings or errors

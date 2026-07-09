@@ -1,0 +1,11 @@
+
+> @fyndo/ai@1.0.0 lint C:\Users\rogsh\Documents\Antigravity\Fyndo\packages\ai
+> eslint .
+
+Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.
+
+C:\Users\rogsh\Documents\Antigravity\Fyndo\packages\ai\src\seo.ts
+  28:12  warning  '_e' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+

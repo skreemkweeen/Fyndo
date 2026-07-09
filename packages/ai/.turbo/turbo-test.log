@@ -1,0 +1,14 @@
+
+> @fyndo/ai@1.0.0 test C:\Users\rogsh\Documents\Antigravity\Fyndo\packages\ai
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/Users/rogsh/Documents/Antigravity/Fyndo/packages/ai[39m
+
+ [32m✓[39m tests/ai.test.ts [2m([22m[2m7 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m7 passed[39m[22m[90m (7)[39m
+[2m   Start at [22m 10:11:12
+[2m   Duration [22m 2.18s[2m (transform 450ms, setup 0ms, collect 793ms, tests 6ms, environment 0ms, prepare 314ms)[22m
+

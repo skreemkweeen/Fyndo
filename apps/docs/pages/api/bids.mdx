@@ -1,0 +1,29 @@
+# Bids API
+
+The Bids API allows authenticated users to place bids on active auctions.
+
+### Endpoint
+
+`POST /api/v1/bids`
+
+### Request Body
+
+```json
+{
+  "auctionId": "auc_123",
+  "amount": 15500,
+  "bidderId": "usr_456"
+}
+```
+
+### Response
+
+```json
+{
+  "success": true,
+  "bid": {
+    "id": "bid_789",
+    "amount": 15500
+  }
+}
+```

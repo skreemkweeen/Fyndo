@@ -1,0 +1,10 @@
+{
+  "/api/stripe/webhook/route": "app/api/stripe/webhook/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/feed/page": "app/feed/page.js",
+  "/messages/page": "app/messages/page.js",
+  "/creator/[handle]/page": "app/creator/[handle]/page.js",
+  "/product/[id]/page": "app/product/[id]/page.js",
+  "/page": "app/page.js",
+  "/live/[id]/page": "app/live/[id]/page.js"
+}

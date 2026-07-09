@@ -1,0 +1,11 @@
+{
+  "files": {
+    "packages/types/.turbo/turbo-test.log": {
+      "size": 602,
+      "mtime_nanos": 1783606275283829500,
+      "mode": 420,
+      "is_dir": false
+    }
+  },
+  "order": ["packages/types/.turbo/turbo-test.log"]
+}

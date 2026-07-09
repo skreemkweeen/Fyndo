@@ -1,0 +1,26 @@
+{
+  "name": "@fyndo/ai",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./moderation": "./src/moderation.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.44",
+    "@fyndo/database": "workspace:*",
+    "@fyndo/types": "workspace:*",
+    "ai": "^3.3.0",
+    "drizzle-orm": "^0.45.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

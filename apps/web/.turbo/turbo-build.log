@@ -1,0 +1,38 @@
+
+> @fyndo/web@1.0.0 build C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web
+> next build
+
+  ▲ Next.js 15.0.0
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+ ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ƒ /                                    584 B           147 kB
+├ ○ /_not-found                          896 B           100 kB
+├ ƒ /api/stripe/webhook                  142 B          99.3 kB
+├ ƒ /creator/[handle]                    567 B           137 kB
+├ ○ /feed                                2.63 kB         138 kB
+├ ƒ /live/[id]                           142 B          99.3 kB
+├ ○ /messages                            4.54 kB         140 kB
+└ ƒ /product/[id]                        142 B          99.3 kB
++ First Load JS shared by all            99.1 kB
+  ├ chunks/89b91903-2ebb3e35c6c31e11.js  52.6 kB
+  ├ chunks/996-df2b0179ca886c17.js       44.6 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

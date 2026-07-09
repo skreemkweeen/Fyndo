@@ -1,0 +1,21 @@
+{
+  "name": "@fyndo/messaging",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@fyndo/database": "workspace:*",
+    "@fyndo/ai": "workspace:*",
+    "@fyndo/types": "workspace:*",
+    "@fyndo/auth": "workspace:*",
+    "drizzle-orm": "^0.45.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.5"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  }
+}

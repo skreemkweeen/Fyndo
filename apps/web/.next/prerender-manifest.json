@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "routes": {
+    "/messages": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/messages",
+      "dataRoute": "/messages.rsc"
+    },
+    "/feed": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/feed",
+      "dataRoute": "/feed.rsc"
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "fbeb56eb0f2935e0854b611187b9581a",
+    "previewModeSigningKey": "db6c4fad7887ce3da78ba4f9caebe4b79484509d910f63b6ab3c73ffc58cae1b",
+    "previewModeEncryptionKey": "49426a57428aaeb58ec79a18f6b7066aa53dea24992c704f3d2f8d26be4682e4"
+  }
+}

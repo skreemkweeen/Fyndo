@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f8f9fa; /* porcelain-100 */
+    --foreground: #121212; /* charcoal-900 */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0b0c10; /* obsidian-900 */
+      --foreground: #f8f9fa; /* porcelain-100 */
+    }
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-brand selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-glass;
+  }
+  .dark .glassmorphism {
+    @apply bg-black/40 border-white/10;
+  }
+  .antigravity-float {
+    @apply transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-glass-hover;
+  }
+}

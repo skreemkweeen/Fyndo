@@ -1,0 +1,11 @@
+{
+  "files": {
+    "apps/admin/.turbo/turbo-lint.log": {
+      "size": 275,
+      "mtime_nanos": 1783606248752239700,
+      "mode": 420,
+      "is_dir": false
+    }
+  },
+  "order": ["apps/admin/.turbo/turbo-lint.log"]
+}

@@ -1,0 +1,23 @@
+# Feed API
+
+The Feed API provides a real-time, paginated stream of discovery products and active livestreams.
+
+### Endpoint
+
+`GET /api/v1/feed`
+
+### Response
+
+```json
+{
+  "items": [
+    {
+      "id": "prod_123",
+      "type": "auction",
+      "title": "Vanilla Noir - Ninth Note",
+      "currentBid": 15000
+    }
+  ],
+  "nextCursor": "cursor_string"
+}
+```
