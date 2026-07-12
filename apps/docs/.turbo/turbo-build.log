@@ -1,0 +1,42 @@
+
+> @fyndo/docs@1.0.0 build C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\docs
+> next build
+
+▲ Next.js 16.2.10 (Turbopack)
+
+  Running TypeScript ...
+  Finished TypeScript in 95ms ...
+  Creating an optimized production build ...
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\rogsh\AppData\Local\Temp\next-panic-8fa3df9b1529b65c6daeea8eceacf469.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Failed%20to%20write%20page%20endpoint%20%2Findex&body=Turbopack%20version%3A%20%60v16.2.10%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AFailed%20to%20write%20page%20endpoint%20%2Findex%0A%0ACaused%20by%3A%0A-%20Expected%20process%20result%20to%20be%20a%20module%2C%20but%20it%20could%20not%20be%20processed%0A%0ADebug%20info%3A%0A-%20Execution%20of%20get_all_written_entrypoints_with_issues_operation%20failed%0A-%20Execution%20of%20EntrypointsOperation%3A%3Anew%20failed%0A-%20Execution%20of%20all_entrypoints_write_to_disk_operation%20failed%0A-%20Execution%20of%20output_assets_operation%20failed%0A-%20Execution%20of%20%3CPageEndpoint%20as%20Endpoint%3E%3A%3Aoutput%20failed%0A-%20Failed%20to%20write%20page%20endpoint%20%2Findex%0A-%20Execution%20of%20PageEndpoint%3A%3Aoutput%20failed%0A-%20Execution%20of%20%2AChunkGroupResult%3A%3Aall_assets%20failed%0A-%20Execution%20of%20PageEndpoint%3A%3Aclient_chunk_group%20failed%0A-%20Execution%20of%20PageEndpoint%3A%3Aclient_evaluatable_assets%20failed%0A-%20Execution%20of%20create_page_loader_entry_module%20failed%0A-%20Execution%20of%20ProcessResult%3A%3Amodule%20failed%0A-%20Expected%20process%20result%20to%20be%20a%20module%2C%20but%20it%20could%20not%20be%20processed%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+
+> Build error occurred
+Error [TurbopackInternalError]: Failed to write page endpoint /index
+
+Caused by:
+- Expected process result to be a module, but it could not be processed
+
+Debug info:
+- Execution of get_all_written_entrypoints_with_issues_operation failed
+- Execution of EntrypointsOperation::new failed
+- Execution of all_entrypoints_write_to_disk_operation failed
+- Execution of output_assets_operation failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /index
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- Execution of create_page_loader_entry_module failed
+- Execution of ProcessResult::module failed
+- Expected process result to be a module, but it could not be processed
+    at <unknown> (TurbopackInternalError: Failed to write page endpoint /index) {
+  type: 'TurbopackInternalError',
+  location: undefined
+}
+ ELIFECYCLE  Command failed with exit code 1.

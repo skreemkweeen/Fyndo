@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4001fe239e7f34ded2fb9ad3fc2d88750fec68cacf": {
+      "workers": {
+        "app/live/[id]/page": {
+          "moduleId": 27403,
+          "async": false,
+          "exportedName": "generateLiveKitToken",
+          "filename": "apps/web/actions/live.ts"
+        }
+      },
+      "exportedName": "generateLiveKitToken",
+      "filename": "apps/web/actions/live.ts"
+    }
+  },
+  "edge": {}
+}

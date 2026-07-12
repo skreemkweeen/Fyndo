@@ -2,37 +2,32 @@
 > @fyndo/web@1.0.0 build C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web
 > next build
 
-  ▲ Next.js 15.0.0
+▲ Next.js 16.2.10 (Turbopack)
 
-   Creating an optimized production build ...
- ✓ Compiled successfully
-   Linting and checking validity of types ...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
 
- ⚠ The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
-   Collecting page data ...
-   Generating static pages (0/6) ...
-   Generating static pages (1/6) 
-   Generating static pages (2/6) 
-   Generating static pages (4/6) 
- ✓ Generating static pages (6/6)
-   Finalizing page optimization ...
-   Collecting build traces ...
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./apps/web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\app\globals.css:1:1: The `border-border` class does not exist. If `border-border` is a custom class, make sure it is defined within a `@layer` directive.
+    at Input.error (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/input.js:106:16) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:4122:22]
+    at error (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/node.js:115:32) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:895:38]
+    [at processApply (C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:380:29)]
+    [at C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:551:9]
+    [at C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\processTailwindFeatures.js:55:50]
+    [at async plugins (C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\plugin.js:38:17)]
+    at async LazyResult.runAsync (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/lazy-result.js:261:11) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:6042:21]
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__161f4dj._.js:172:36]
+    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__0vs6o7l._.js:443:31]
 
-Route (app)                              Size     First Load JS
-┌ ƒ /                                    584 B           147 kB
-├ ○ /_not-found                          896 B           100 kB
-├ ƒ /api/stripe/webhook                  142 B          99.3 kB
-├ ƒ /creator/[handle]                    567 B           137 kB
-├ ○ /feed                                2.63 kB         138 kB
-├ ƒ /live/[id]                           142 B          99.3 kB
-├ ○ /messages                            4.54 kB         140 kB
-└ ƒ /product/[id]                        142 B          99.3 kB
-+ First Load JS shared by all            99.1 kB
-  ├ chunks/89b91903-2ebb3e35c6c31e11.js  52.6 kB
-  ├ chunks/996-df2b0179ca886c17.js       44.6 kB
-  └ other shared chunks (total)          1.88 kB
+Import trace:
+  Client Component Browser:
+    ./apps/web/app/globals.css [Client Component Browser]
+    ./apps/web/app/layout.tsx [Server Component]
 
 
-○  (Static)   prerendered as static content
-ƒ  (Dynamic)  server-rendered on demand
-
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__161f4dj._.js:172:36])
+    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__0vs6o7l._.js:443:31])
+ ELIFECYCLE  Command failed with exit code 1.

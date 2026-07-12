@@ -1,0 +1,55 @@
+{
+  "sorted_middleware": [
+    "/api/og/route"
+  ],
+  "middleware": {},
+  "instrumentation": null,
+  "functions": {
+    "/api/og/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/server-reference-manifest.js",
+        "server/app/api/og/route_client-reference-manifest.js",
+        "server/edge/chunks/apps_web__next-internal_server_app_api_og_route_actions_0ck1f7o.js",
+        "server/edge/chunks/[root-of-the-server]__08377vk._.js",
+        "server/edge/chunks/node_modules__pnpm_0r98bfj._.js",
+        "server/edge/chunks/0c70_next_dist_compiled_@vercel_og_1hq7ws3._.js",
+        "server/edge/chunks/1bop_next_dist_esm_build_templates_edge-wrapper_00n_0y0.js"
+      ],
+      "name": "app/api/og/route",
+      "page": "/api/og/route",
+      "entrypoint": "server/edge/chunks/1bop_next_dist_esm_build_templates_edge-wrapper_00n_0y0.js",
+      "matchers": [
+        {
+          "regexp": "^/api/og(?:/)?$",
+          "originalSource": "/api/og"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_10a187050363648b49a36c79d5266d2c",
+          "filePath": "server/edge/chunks/0c70_next_dist_compiled_@vercel_og_yoga_0athij3.wasm"
+        },
+        {
+          "name": "wasm_151b7f7b511bd6dda63695d2c75c87a3",
+          "filePath": "server/edge/chunks/0c70_next_dist_compiled_@vercel_og_resvg_0athij3.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf",
+          "filePath": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "gmvSMhAx8iAYHFkAZpzPA",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "8Cb/BwNUaAMMbOj6PXByBENi+hTtelVOc3JCHSPsckM=",
+        "__NEXT_PREVIEW_MODE_ID": "05027115402db2ac65a9e6d720234e30",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "ba36e86f60d2b5b95d399dbf334a9c1ddec78e658f69f0e174cd6087f5b1940a",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "ab3a0692c0f6ff5d5a93897b1eb61d014ede84841b90942ee9580fdf8a53ecc4"
+      }
+    }
+  }
+}
