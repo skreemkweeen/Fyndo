@@ -6,28 +6,19 @@
 
 ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
   Creating an optimized production build ...
+✓ Compiled successfully in 3.0s
+  Running TypeScript ...
+Failed to type check.
 
-> Build error occurred
-Error: Turbopack build failed with 1 errors:
-./apps/web/app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\app\globals.css:1:1: The `border-border` class does not exist. If `border-border` is a custom class, make sure it is defined within a `@layer` directive.
-    at Input.error (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/input.js:106:16) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:4122:22]
-    at error (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/node.js:115:32) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:895:38]
-    [at processApply (C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:380:29)]
-    [at C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:551:9]
-    [at C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\processTailwindFeatures.js:55:50]
-    [at async plugins (C:\Users\rogsh\Documents\Antigravity\Fyndo\node_modules\.pnpm\tailwindcss@3.4.19_tsx@4.23.0_yaml@2.9.0\node_modules\tailwindcss\lib\plugin.js:38:17)]
-    at async LazyResult.runAsync (node_modules/.pnpm/postcss@8.4.31/node_modules/postcss/lib/lazy-result.js:261:11) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\node_modules__pnpm_0ncq4wh._.js:6042:21]
-    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__161f4dj._.js:172:36]
-    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__0vs6o7l._.js:443:31]
+./app/feed/page.tsx:6:25
+Type error: The inferred type of 'FeedPage' cannot be named without a reference to '.pnpm/@types+react@18.3.31/node_modules/@types/react'. This is likely not portable. A type annotation is necessary.
 
-Import trace:
-  Client Component Browser:
-    ./apps/web/app/globals.css [Client Component Browser]
-    ./apps/web/app/layout.tsx [Server Component]
-
-
-    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__161f4dj._.js:172:36])
-    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [C:\Users\rogsh\Documents\Antigravity\Fyndo\apps\web\.next\build\chunks\[root-of-the-server]__0vs6o7l._.js:443:31])
+  [90m4 |[0m [36mimport[0m { [33mHeart[0m, [33mMessageCircle[0m, [33mShare2[0m, [33mMoreHorizontal[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m5 |[0m
+[31m[1m>[0m [90m6 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mFeedPage[0m() {
+  [90m  |[0m                         [31m[1m^[0m
+  [90m7 |[0m   [36mconst[0m [33mPOSTS[0m = [
+  [90m8 |[0m     {
+  [90m9 |[0m       id: [32m"p1"[0m,
+Next.js build worker exited with code: 1 and signal: null
  ELIFECYCLE  Command failed with exit code 1.

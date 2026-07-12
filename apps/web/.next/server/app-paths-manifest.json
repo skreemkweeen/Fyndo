@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/og/route": "app-edge-has-no-entrypoint",
+  "/api/stripe/webhook/route": "app/api/stripe/webhook/route.js",
+  "/api/v1/auth/route": "app/api/v1/auth/route.js",
+  "/api/v1/bids/route": "app/api/v1/bids/route.js",
+  "/api/v1/feed/route": "app/api/v1/feed/route.js",
+  "/creator/[handle]/page": "app/creator/[handle]/page.js",
+  "/feed/page": "app/feed/page.js",
+  "/live/[id]/page": "app/live/[id]/page.js",
+  "/messages/page": "app/messages/page.js",
+  "/page": "app/page.js",
+  "/product/[id]/page": "app/product/[id]/page.js",
+  "/rewards/page": "app/rewards/page.js"
+}
