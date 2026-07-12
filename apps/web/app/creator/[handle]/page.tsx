@@ -8,7 +8,7 @@ export default async function CreatorProfile({
   params,
 }: {
   params: Promise<{ handle: string }>;
-}): Promise<JSX.Element> {
+}) {
   const { handle } = await params;
   const adapter = new MockAlgoliaAdapter();
   const products = await adapter.search("luxury");
